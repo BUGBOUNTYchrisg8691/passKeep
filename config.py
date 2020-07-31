@@ -8,7 +8,7 @@ if ( os.path.exists( '.creds' )):
 
 else:
     if ( os.name == 'nt' ):
-        os.makedir( '.creds' )
+        os.mkdir( '.creds' )
     elif( os.name == '*nix' ):
         os.mkdir( '.creds' )
     else:
